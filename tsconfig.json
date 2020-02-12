@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "text-hightlight": [
+        "dist/text-hightlight"
+      ],
+      "text-hightlight/*": [
+        "dist/text-hightlight/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
